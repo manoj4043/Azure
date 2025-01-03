@@ -1,0 +1,66 @@
+{
+	"name": "SourceDataset_lzf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Item_Identifier",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_Weight",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_Fat_Content",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_Visibility",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_MRP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outlet_Identifier",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outlet_Establishment_Year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outlet_Size",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outlet_Location_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outlet_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item_Outlet_Sales",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "BigMart Sales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sai4043.database.windows.net",
+			"database": "db4043",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sai4043",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEVBOTU1OTE0LTM0RDYtNDY2QS04NUQ2LTMyREZBRjMwRjk2RV8zNDU5ZTk5Zi1kNDBlLTQ2NWMtYWY4NC1mZDY0M2I4NDMyZDgiDQp9"
+		}
+	}
+}
