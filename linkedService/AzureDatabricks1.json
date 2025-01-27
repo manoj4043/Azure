@@ -1,0 +1,13 @@
+{
+	"name": "AzureDatabricks1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-1663751173934477.17.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/b448e3ee-64e0-4f0c-97ed-395bb0010098/resourceGroups/Cloudtest/providers/Microsoft.Databricks/workspaces/manojdatabricks",
+			"existingClusterId": "0122-093724-1lo5ga7j"
+		}
+	}
+}
